@@ -10,5 +10,8 @@ pubs.bib:
 pubsFromBib.py: PubsFromBib.ipynb
 	jupyter nbconvert --to script 'PubsFromBib.ipynb' --output pubsFromBib
 
-papers: pubs.bib pubsFromBib.py
-	ipython pubsFromBib.py
+publications.py: publications.ipynb
+	jupyter nbconvert --to script 'publications.ipynb'
+
+publications: publications.py publications.tsv
+	ipython publications.py
