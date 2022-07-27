@@ -15,6 +15,8 @@
 # TODO: Make this work with other databases of citations, 
 # TODO: Merge this with the existing TSV parsing solution
 
+# In[ ]:
+
 
 from pybtex.database.input import bibtex
 import pybtex.database.input.bibtex 
@@ -24,10 +26,14 @@ import html
 import os
 import re
 
+
+# In[ ]:
+
+
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "proceeding": {
-        "file" : "proceedings.bib",
+        "file" : "pubs.bib",
         "venuekey": "booktitle",
         "venue-pretext": "In the proceedings of ",
         "collection" : {"name":"publications",
@@ -43,6 +49,10 @@ publist = {
     } 
 }
 
+
+# In[ ]:
+
+
 html_escape_table = {
     "&": "&amp;",
     '"': "&quot;",
@@ -52,6 +62,9 @@ html_escape_table = {
 def html_escape(text):
     """Produce entities within text."""
     return "".join(html_escape_table.get(c,c) for c in text)
+
+
+# In[ ]:
 
 
 for pubsource in publist:
@@ -100,7 +113,7 @@ for pubsource in publist:
 
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+                citation = citation+" "+(author.first_names[0] if author.first_names else "")+" "+author.last_names[0]+", "
 
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
@@ -158,3 +171,10 @@ for pubsource in publist:
         except KeyError as e:
             print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
             continue
+
+
+# In[ ]:
+
+
+
+
