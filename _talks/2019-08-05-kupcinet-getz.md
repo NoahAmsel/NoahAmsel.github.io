@@ -9,4 +9,4 @@ location: "Weizmann Institute, Rehovot, Israel"
 published: False
 ---
 
-Presented work on phylogenetic inference completed during the Kupcinet-Getz international summer school, which eventually became our paper "Spectral Neighbor Joining for Reconstruction of Latent Tree Models".
+Presented work on phylogenetic inference completed during the Kupcinet-Getz international summer school, which eventually became our paper "[Spectral Neighbor Joining for Reconstruction of Latent Tree Models]()".
