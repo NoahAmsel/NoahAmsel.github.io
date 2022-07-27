@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 # coding: utf-8
 
 # # Talks markdown generator for academicpages
@@ -7,7 +7,8 @@
 # 
 # TODO: Make this work with BibTex and other databases, rather than Stuart's non-standard TSV format and citation style.
 
-# In[1]:
+# In[ ]:
+
 
 import pandas as pd
 import os
@@ -23,6 +24,12 @@ import os
 #     - The .md file will be `YYYY-MM-DD-[url_slug].md` and the permalink will be `https://[yourdomain]/talks/YYYY-MM-DD-[url_slug]`
 #     - The combination of `url_slug` and `date` must be unique, as it will be the basis for your filenames
 # 
+# This is how the raw file looks (it doesn't look pretty, use a spreadsheet or other program to edit and create).
+
+# In[ ]:
+
+
+# !cat talks.tsv
 
 
 # ## Import TSV
@@ -31,9 +38,10 @@ import os
 # 
 # I found it important to put this data in a tab-separated values format, because there are a lot of commas in this kind of data and comma-separated values can get messed up. However, you can modify the import statement, as pandas also has read_excel(), read_json(), and others.
 
-# In[3]:
+# In[ ]:
 
-talks = pd.read_csv("talks.tsv", sep="\t", header=0)
+
+talks = pd.read_csv("talks.tsv", sep="\t", header=0, quotechar='`')
 talks
 
 
@@ -41,7 +49,8 @@ talks
 # 
 # YAML is very picky about how it takes a valid string, so we are replacing single and double quotes (and ampersands) with their HTML encoded equivilents. This makes them look not so readable in raw format, but they are parsed and rendered nicely.
 
-# In[4]:
+# In[ ]:
+
 
 html_escape_table = {
     "&": "&amp;",
@@ -50,17 +59,19 @@ html_escape_table = {
     }
 
 def html_escape(text):
-    if type(text) is str:
-        return "".join(html_escape_table.get(c,c) for c in text)
-    else:
-        return "False"
+    return text
+    # if type(text) is str:
+    #     return "".join(html_escape_table.get(c,c) for c in text)
+    # else:
+    #     return "False"
 
 
 # ## Creating the markdown files
 # 
 # This is where the heavy lifting is done. This loops through all the rows in the TSV dataframe, then starts to concatentate a big string (```md```) that contains the markdown for each type. It does the YAML metadata first, then does the description for the individual page.
 
-# In[5]:
+# In[ ]:
+
 
 loc_dict = {}
 
@@ -89,11 +100,14 @@ for row, item in talks.iterrows():
     if len(str(item.location)) > 3:
         md += 'location: "' + str(item.location) + '"\n'
            
+    if len(str(item.published)) > 3:
+        md += 'published: ' + str(item.published) + '\n'
+
     md += "---\n"
     
     
-    if len(str(item.talk_url)) > 3:
-        md += "\n[More information here](" + item.talk_url + ")\n" 
+    # if len(str(item.talk_url)) > 3:
+    #     md += "\n[More information here](" + item.talk_url + ")\n" 
         
     
     if len(str(item.description)) > 3:
@@ -108,4 +122,15 @@ for row, item in talks.iterrows():
 
 
 # These files are in the talks directory, one directory below where we're working from.
+
+# In[ ]:
+
+
+get_ipython().system('ls ../_talks')
+
+
+# In[ ]:
+
+
+# !cat ../_talks/2013-03-01-tutorial-1.md
 
