@@ -15,7 +15,7 @@ Education
 Ph.D. in Computer Science
 * Yale University &emsp;&emsp; August 2016 - May 2020  
 B.S. in Computer Science & Mathematics, with distinction. Magna Cum Laude.  
-Thesis: “Online Vector Balancing in Practice.” Advised by Dan Spieman.
+Thesis: “Online Vector Balancing in Practice.” Advised by Dan Spielman.
 
 Experience
 ======
@@ -78,4 +78,5 @@ Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
+    <p class="archive__item-excerpt" itemprop="description">{{ post.venue }}, {{ post.date | date: "%Y"}}</p>
   {% endfor %}</ul>

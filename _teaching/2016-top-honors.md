@@ -1,5 +1,5 @@
 ---
-title: "Algorithms"
+title: "Volunteer Math Tutor"
 collection: teaching
 type: "Volunteer"
 permalink: /teaching/2016-top-honors
