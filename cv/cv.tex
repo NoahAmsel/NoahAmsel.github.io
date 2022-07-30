@@ -1,0 +1,195 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS 
+%----------------------------------------------------------------------------------------
+ 
+\documentclass{resume} % Use the custom resume.cls style 
+
+\usepackage[left=0.4 in,top=0.3 in,right=0.4 in,bottom=0.3in]{geometry} % Document margins
+
+% \usepackage{biblatex}
+% \addbibresource{publications.bib}
+% \defbibheading{bibliography}[\refname]{}
+
+\usepackage[sort]{natbib}
+\bibliographystyle{unsrtnat}
+\renewcommand{\bibsection}{}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Noah Amsel} % Your name 
+% \address{C-101, Dreamland Apartment, Backbone Park, B/H Balaji Hall, Rajkot-360004, Gujarat} % Your address 
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional) 
+\address{noah.amsel@nyu.edu \\ https://NoahAmsel.github.io/} % Your phone number and email
+
+\begin{document}
+
+\centerline{\textit{Last updated \today}}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Courant Institute, New York University} \hfill {August 2022 - Present}
+\\ 
+Ph.D. in Computer Science \hfill {New York, NY}
+
+{\bf Yale University} \hfill {August 2016 - May 2020}
+\\ 
+B.S. in Computer Science \& Mathematics, with distinction. \hfill {New Haven, CT}
+\\
+\textit{Magna cum laude}. Thesis: ``Online Vector Balancing in Practice,'' advised by Dan Spielman.
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{skills and INTERESTS}
+
+% \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }  
+% Interests & Product Development, Design, Automobile, CAD/CAE, Finite Element Analysis, \\& Optimization, Fluid Mechanics, Robotics, Modeling and Simulation\\    
+% Design Software & Basic AUTOCAD, CATIA V5, ANSYS (Static Structural, Transient Structural, \\& Static Thermal, Transient Thermal, Harmonic Response, Model analysis, Acoustic, Fluent), \\& OptimumLap,  MATLAB\\      
+ 
+% \end{tabular}   
+
+% \end{rSection}
+
+%-------------------------------------------------------------------------------
+%	PROJECTS
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Qualcomm Technologies, Inc.} {November 2021 - July 2022}{Engineer, Corporate Research \& Development}{New York, NY}
+
+\item Stayed on after Reservoir Labs was acquired by Qualcomm and turned into a new R\&D division.
+\item Worked on software package for global non-convex optimization.
+ 
+\end{rSubsection}  
+
+%------------------------------------------------
+
+\begin{rSubsection}{Reservoir Labs} {June 2020 - November 2021}{Research Engineer}{New York, NY}
+
+\item Created algorithm for simulating network performance that achieved order-of-magnitude speed up.
+\item Deployed our network modeling tool to DOE’s Energy Sciences Network.
+\item Developed framework for designing provably efficient data center networks. Published it at ACM SIGCOMM.
+ 
+\end{rSubsection}  
+
+%------------------------------------------------
+
+\begin{rSubsection}{Weizmann Institute of Science} {June - August 2019}{Kupcinet-Getz International Summer School, Research Fellow}{Rehovot, Israel}
+
+\item Developed novel spectral method for fitting latent tree graphical models of DNA data.
+\item Proved sufficient condition for the algorithm to succeed and finite sample guarantee.
+\item Wrote open source implementation that scales to to very large problems with high accuracy.
+
+\end{rSubsection}  
+
+%------------------------------------------------
+
+\begin{rSubsection}{Facebook, Inc.} {May - August 2018}{Software Engineering Intern}{New York, NY}
+
+\item Built Bandwidth Estimation model for Adaptive Bitrate Streaming to improve mobile video quality.
+\item Implemented and tested the model in C++ and Java; refactored ABR code.
+\item Validated new model in production; found it reduced error by more than half (RMSE).
+\item Received return offer.
+
+\end{rSubsection}  
+
+%------------------------------------------------
+
+\begin{rSubsection}{Off the Hook, LLC} {May - July 2017}{Data Analyst / Software Developer}{New York, NY}
+
+\item Developed computer gambling software in Python based on statistical analysis of horse racing data.
+\item Made race predictions and evaluated wager opportunities by using machine learning methods (Multi-
+nomial Logit Model, GAM, Random Forest, PCA) and the Python scientific stack.
+\item Analyzed SQL database with 3 million entries and interfaced with RESTful API.
+
+\end{rSubsection}  
+
+%------------------------------------------------
+
+\begin{rSubsection}{Yale Brain Function Laboratory} {Summer 2014, 2015}{Research Assistant}{New Haven, CT}
+
+\item Wrote MATLAB programs to analyze functional Near Infrared Spectroscopy data at the gigabyte scale.
+\item Introduced permutation testing for statistical significance; learned signal processing methods.
+\item Designed and conducted independent, award-winning research project that used human subjects to study the neural circuitry of interpersonal communication (Intel STS Semifinalist, 2016).
+
+\end{rSubsection}  
+
+%------------------------------------------------
+
+\end{rSection} 
+
+%--------------------------------------------------------------------------------------
+%   Research Publications 
+%--------------------------------------------------------------------------------------
+\begin{rSection}{ Publications } \itemsep -3pt        
+
+\nocite{*}
+\bibliography{publications.bib}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Awards}
+
+\begin{tabular}{ll}
+    Phi Beta Kappa & 2020 \\
+    Intel Science Talent Search Semifinalist & 2016 
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Teaching Experience}
+
+\begin{tabular}{l>{\em}ll}
+    Algorithms (CPSC 365), Undergraduate Learning Assistant & Yale University & 2019 \\
+    Intel Science Talent Search Semifinalist & Top Honors & 2013--2016
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TALKS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Talks}
+
+\begin{tabular}{lll}
+    ACM SIGCOMM & Designing Data Center Networks Using Bottleneck Structures & 2021 \\
+    IEEE/ACM INDIS at SC20 & Computing Bottleneck Structures at Scale & 2020
+\end{tabular}
+
+\end{rSection}
+
+\end{document}
