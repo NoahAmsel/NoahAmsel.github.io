@@ -126,7 +126,6 @@ for row, item in talks.iterrows():
 # In[ ]:
 
 
-get_ipython().system('ls ../_talks')
 
 
 # In[ ]:
