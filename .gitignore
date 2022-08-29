@@ -5,6 +5,8 @@ _site/
 .jekyll-metadata
 vendor
 
+__pycache__
+
 Gemfile.lock
 
 *.aux

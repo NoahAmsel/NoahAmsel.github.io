@@ -1,8 +1,8 @@
 ---
 title: "Context-Free Transductions with Neural Stacks"
-collection: publications
-permalink: /publication/2018-contextfree-transductions-with-neural-stacks
-date: 2018-11-01
+collection: "publications"
+permalink: "/publication/2018-contextfree-transductions-with-neural-stacks"
+date: "2018-11-01"
 publication_authors: "Yiding Hao, William Merrill, Dana Angluin, Robert Frank, Noah Amsel, Andrew Benz, and Simon Mendelsohn"
 venue: "Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP"
 paperurl: "https://aclanthology.org/W18-5433"

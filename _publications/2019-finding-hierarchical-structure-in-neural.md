@@ -1,8 +1,8 @@
 ---
 title: "Finding Hierarchical Structure in Neural Stacks Using Unsupervised Parsing"
-collection: publications
-permalink: /publication/2019-finding-hierarchical-structure-in-neural
-date: 2019-08-01
+collection: "publications"
+permalink: "/publication/2019-finding-hierarchical-structure-in-neural"
+date: "2019-08-01"
 publication_authors: "William Merrill, Lenny Khazan, Noah Amsel, Yiding Hao, Simon Mendelsohn, and Robert Frank"
 venue: "Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP"
 paperurl: "https://aclanthology.org/W19-4823"

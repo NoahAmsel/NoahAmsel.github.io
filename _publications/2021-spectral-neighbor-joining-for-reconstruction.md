@@ -1,8 +1,8 @@
 ---
 title: "Spectral Neighbor Joining for Reconstruction of Latent Tree Models"
-collection: publications
-permalink: /publication/2021-spectral-neighbor-joining-for-reconstruction
-date: 2021-01-01
+collection: "publications"
+permalink: "/publication/2021-spectral-neighbor-joining-for-reconstruction"
+date: "2021-01-01"
 publication_authors: "Ariel Jaffe, Noah Amsel, Yariv Aizenbud, Boaz Nadler, Joseph T. Chang, and Yuval Kluger"
 venue: "SIAM Journal on Mathematics of Data Science (SIMODS)"
 paperurl: "https://doi.org/10.1137/20M1365715"

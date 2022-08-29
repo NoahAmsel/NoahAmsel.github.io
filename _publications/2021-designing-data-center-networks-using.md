@@ -1,8 +1,8 @@
 ---
 title: "Designing Data Center Networks Using Bottleneck Structures"
-collection: publications
-permalink: /publication/2021-designing-data-center-networks-using
-date: 2021-01-01
+collection: "publications"
+permalink: "/publication/2021-designing-data-center-networks-using"
+date: "2021-01-01"
 publication_authors: "Jordi Ros-Giralt, Noah Amsel, Sruthi Yellamraju, James Ezick, Richard Lethin, Yuang Jiang, Aosong Feng, Leandros Tassiulas, Zhenguo Wu, Min Yee Teh, and Keren Bergman"
 venue: "Proceedings of the 2021 ACM SIGCOMM 2021 Conference"
 paperurl: "https://doi.org/10.1145/3452296.3472898"
