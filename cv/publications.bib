@@ -13,13 +13,15 @@ pages = {319-348},
 numpages = {30},
 keywords = {max-min, design, model, bottleneck structure, data center},
 location = {Virtual Event, USA},
-series = {SIGCOMM '21}
+series = {SIGCOMM '21},
+pdf_url = {https://dl.acm.org/doi/pdf/10.1145/3452296.3472898},
+video_url = {https://www.youtube.com/watch?v=s531GDw5pxs&t=2m10s&list=PLU4C2_kotFP2RrGAKLkVNGrrS8o6G-jvi&index=10},
 }
 
 @article{doi:10.1137/20M1365715,
 author = {Jaffe, Ariel and Amsel, Noah and Aizenbud, Yariv and Nadler, Boaz and Chang, Joseph T. and Kluger, Yuval},
 title = {Spectral Neighbor Joining for Reconstruction of Latent Tree Models},
-journal = {SIAM Journal on Mathematics of Data Science},
+journal = {SIAM Journal on Mathematics of Data Science (SIMODS)},
 volume = {3},
 number = {1},
 pages = {113-141},
@@ -27,18 +29,23 @@ year = {2021},
 doi = {10.1137/20M1365715},
 URL = {https://doi.org/10.1137/20M1365715},
 eprint = {https://doi.org/10.1137/20M1365715},
-    abstract = { A common assumption in multiple scientific applications is that the distribution of observed data can be modeled by a latent tree graphical model. An important example is phylogenetics, where the tree models the evolutionary lineages of a set of observed organisms. Given a set of independent realizations of the random variables at the leaves of the tree, a key challenge is to infer the underlying tree topology. In this work we develop spectral neighbor joining (SNJ), a novel method to recover the structure of latent tree graphical models. Given a matrix that contains a measure of similarity between all pairs of observed variables, SNJ computes a spectral measure of cohesion between groups of observed variables. We prove that SNJ is consistent and derive a sufficient condition for correct tree recovery from an estimated similarity matrix. Combining this condition with a concentration of measure result on the similarity matrix, we bound the number of samples required to recover the tree with high probability. We illustrate via extensive simulations that in comparison to several other reconstruction methods, SNJ requires fewer samples to accurately recover trees with a large number of leaves or long edges. }
+abstract = { A common assumption in multiple scientific applications is that the distribution of observed data can be modeled by a latent tree graphical model. An important example is phylogenetics, where the tree models the evolutionary lineages of a set of observed organisms. Given a set of independent realizations of the random variables at the leaves of the tree, a key challenge is to infer the underlying tree topology. In this work we develop spectral neighbor joining (SNJ), a novel method to recover the structure of latent tree graphical models. Given a matrix that contains a measure of similarity between all pairs of observed variables, SNJ computes a spectral measure of cohesion between groups of observed variables. We prove that SNJ is consistent and derive a sufficient condition for correct tree recovery from an estimated similarity matrix. Combining this condition with a concentration of measure result on the similarity matrix, we bound the number of samples required to recover the tree with high probability. We illustrate via extensive simulations that in comparison to several other reconstruction methods, SNJ requires fewer samples to accurately recover trees with a large number of leaves or long edges. },
+pdf_url = { https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8194222/pdf/nihms-1702804.pdf },
+code_url = {https://github.com/NoahAmsel/spectral-tree-inference},
 }
 
 @article{osti_1839037,
 title = {Computing Bottleneck Structures at Scale for High-Precision Network Performance Analysis},
 author = {Amsel, Noah and Ros-Giralt, Jordi and Yellamraju, Sruthi and Ezick, James and von Hofe, Brendan and Ryan, Alison and Lethin, Richard},
-abstractNote = {The Theory of Bottleneck Structures is a recently-developed framework for studying the performance of data networks. It describes how local perturbations in one part of the network propagate and interact with others. This framework is a powerful analytical tool that allows network operators to make accurate predictions about network behavior and thereby optimize performance. Previous work implemented a software package for bottleneck structure analysis, but applied it only to toy examples. In this work, we introduce the first software package capable of scaling bottleneck structure analysis to production-size networks. Here, we benchmark our system using logs from ESnet, the Department of Energy's high-performance data network that connects research institutions in the U.S. Using the previously published tool as a baseline, we demonstrate that our system achieves vastly improved performance, constructing the bottleneck structure graphs in 0.21 s and calculating link derivatives in 0.09 s on average. We also study the asymptotic complexity of our core algorithms, demonstrating good scaling properties and strong agreement with theoretical bounds. These results indicate that our new software package can maintain its fast performance when applied to even larger networks. They also show that our software is efficient enough to analyze rapidly changing networks in real time. Overall, we demonstrate the feasibility of applying bottleneck structure analysis to solve practical problems in large, real-world data networks.},
+abstract = {The Theory of Bottleneck Structures is a recently-developed framework for studying the performance of data networks. It describes how local perturbations in one part of the network propagate and interact with others. This framework is a powerful analytical tool that allows network operators to make accurate predictions about network behavior and thereby optimize performance. Previous work implemented a software package for bottleneck structure analysis, but applied it only to toy examples. In this work, we introduce the first software package capable of scaling bottleneck structure analysis to production-size networks. Here, we benchmark our system using logs from ESnet, the Department of Energy's high-performance data network that connects research institutions in the U.S. Using the previously published tool as a baseline, we demonstrate that our system achieves vastly improved performance, constructing the bottleneck structure graphs in 0.21 s and calculating link derivatives in 0.09 s on average. We also study the asymptotic complexity of our core algorithms, demonstrating good scaling properties and strong agreement with theoretical bounds. These results indicate that our new software package can maintain its fast performance when applied to even larger networks. They also show that our software is efficient enough to analyze rapidly changing networks in real time. Overall, we demonstrate the feasibility of applying bottleneck structure analysis to solve practical problems in large, real-world data networks.},
 doi = {10.1109/indis51933.2020.00012},
-url = {https://www.osti.gov/biblio/1839037}, journal = {2020 IEEE/ACM Innovating the Network for Data-Intensive Science (INDIS)},
+url = {https://ieeexplore.ieee.org/document/9307175},
+journal = {2020 IEEE/ACM Innovating the Network for Data-Intensive Science (INDIS)},
 place = {United States},
 year = {2020},
-month = {11}
+month = {11},
+pdf_url = {https://www.osti.gov/servlets/purl/1839037},
+slides_url = {/files/INDIS20_PaperTalk_BottleneckStructures.pdf},
 }
 
 @inproceedings{merrill-etal-2019-finding,
@@ -58,6 +65,8 @@ month = {11}
     doi = "10.18653/v1/W19-4823",
     pages = "224--232",
     abstract = "Neural network architectures have been augmented with differentiable stacks in order to introduce a bias toward learning hierarchy-sensitive regularities. It has, however, proven difficult to assess the degree to which such a bias is effective, as the operation of the differentiable stack is not always interpretable. In this paper, we attempt to detect the presence of latent representations of hierarchical structure through an exploration of the unsupervised learning of constituency structure. Using a technique due to Shen et al. (2018a,b), we extract syntactic trees from the pushing behavior of stack RNNs trained on language modeling and classification objectives. We find that our models produce parses that reflect natural language syntactic constituencies, demonstrating that stack RNNs do indeed infer linguistically relevant hierarchical structure.",
+    pdf_url = "https://aclanthology.org/W19-4823.pdf",
+    code_url = "https://github.com/viking-sudo-rm/industrial-stacknns",
 }
 
 @inproceedings{hao-etal-2018-context,
@@ -69,7 +78,7 @@ month = {11}
       Amsel, Noah  and
       Benz, Andrew  and
       Mendelsohn, Simon",
-    booktitle = "Proceedings of the 2018 {EMNLP} Workshop {B}lackbox{NLP}: Analyzing and Interpreting Neural Networks for {NLP}",
+    booktitle = "Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
     month = nov,
     year = "2018",
     address = "Brussels, Belgium",
@@ -78,4 +87,6 @@ month = {11}
     doi = "10.18653/v1/W18-5433",
     pages = "306--315",
     abstract = "This paper analyzes the behavior of stack-augmented recurrent neural network (RNN) models. Due to the architectural similarity between stack RNNs and pushdown transducers, we train stack RNN models on a number of tasks, including string reversal, context-free language modelling, and cumulative XOR evaluation. Examining the behavior of our networks, we show that stack-augmented RNNs can discover intuitive stack-based strategies for solving our tasks. However, stack RNNs are more difficult to train than classical architectures such as LSTMs. Rather than employ stack-based strategies, more complex networks often find approximate solutions by using the stack as unstructured memory.",
+    pdf_url = "https://aclanthology.org/W18-5433.pdf",
+    code_url = "https://github.com/viking-sudo-rm/StackNN",
 }
