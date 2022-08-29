@@ -8,11 +8,13 @@ Website
 - add subject tags to the publications so they can be grouped by topic
 - run a scan that checks for broken links
 - update automatic generation of talks. use a JSON file instead of a tsv
+- in generate_publications, wrap more stuff in html escape
 
 CV pdf
 
 - shorter description for jobs
 - bold name in papers (should i do this on the website too?)
+- automatically generate tables of talks and teaching from other files
 
 External to website
 

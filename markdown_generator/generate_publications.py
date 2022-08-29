@@ -25,6 +25,16 @@ def pub_page(title, url_slug, date, venue, external_url, authors, abstract, **kw
 
     """)
 
+
+def html_escape(text):
+    """Produce entities within text."""
+    html_escape_table = {
+        "&": "&amp;",
+        '"': "&quot;",
+        "'": "&apos;"
+    }
+    return "".join(html_escape_table.get(c,c) for c in text)
+
 def month2int(month_str):
     month2num = {
         "january": 1,
