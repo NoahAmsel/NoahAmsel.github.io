@@ -37,9 +37,8 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.collection == 'publications' %}
-          <p>{{ page.publication_authors }}</p>
-          <p><i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-          <p>
+          <p>{{ page.publication_authors }}<br>
+          <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}<br>
             {% if page.paperurl %}
               <a href=" {{ page.paperurl }} "><u>[journal]</u></a>
             {% endif %}
