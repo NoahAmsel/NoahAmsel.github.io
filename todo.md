@@ -1,3 +1,5 @@
+Just switch the whole thing to https://github.com/alshedivat/al-folio
+
 Website
 - improve style of publications and talks pages
 - add subject tags to the publications so they can be grouped by topic
