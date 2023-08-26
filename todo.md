@@ -1,4 +1,6 @@
 Just switch the whole thing to https://github.com/alshedivat/al-folio
+This still allows me to give publications properties like PDF, code, etc.
+But rather than each talk being a blog post, they all are listed in a nice page with collapsable abstracts
 
 Website
 - improve style of publications and talks pages
@@ -12,8 +14,8 @@ Website — Long Term
 - add a personal section somewhere
   - D1 athlete
   - or scrape the interests of all other nyu students
- - add a "software" section
- - add back the teaching section?
+  - add a "software" section
+  - add back the teaching section?
 - blog posts
 
 CV pdf
