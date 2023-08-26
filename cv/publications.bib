@@ -1,17 +1,19 @@
 @article{10.1093/imaiai/iaad032,
     author = {Aizenbud, Yariv and Jaffe, Ariel and Wang, Meng and Hu, Amber and Amsel, Noah and Nadler, Boaz and Chang, Joseph T and Kluger, Yuval},
-    title = "{Spectral top-down recovery of latent tree models}",
+    title = {Spectral top-down recovery of latent tree models},
     journal = {Information and Inference: A Journal of the IMA},
     volume = {12},
     number = {3},
     pages = {iaad032},
     year = {2023},
     month = {08},
-    abstract = "{Modeling the distribution of high-dimensional data by a latent tree graphical model is a prevalent approach in multiple scientific domains. A common task is to infer the underlying tree structure, given only observations of its terminal nodes. Many algorithms for tree recovery are computationally intensive, which limits their applicability to trees of moderate size. For large trees, a common approach, termed divide-and-conquer, is to recover the tree structure in two steps. First, separately recover the structure of multiple, possibly random subsets of the terminal nodes. Second, merge the resulting subtrees to form a full tree. Here, we develop spectral top-down recovery (STDR), a deterministic divide-and-conquer approach to infer large latent tree models. Unlike previous methods, STDR partitions the terminal nodes in a non random way, based on the Fiedler vector of a suitable Laplacian matrix related to the observed nodes. We prove that under certain conditions, this partitioning is consistent with the tree structure. This, in turn, leads to a significantly simpler merging procedure of the small subtrees. We prove that STDR is statistically consistent and bound the number of samples required to accurately recover the tree with high probability. Using simulated data from several common tree models in phylogenetics, we demonstrate that STDR has a significant advantage in terms of runtime, with improved or similar accuracy.}",
+    abstract = {Modeling the distribution of high-dimensional data by a latent tree graphical model is a prevalent approach in multiple scientific domains. A common task is to infer the underlying tree structure, given only observations of its terminal nodes. Many algorithms for tree recovery are computationally intensive, which limits their applicability to trees of moderate size. For large trees, a common approach, termed divide-and-conquer, is to recover the tree structure in two steps. First, separately recover the structure of multiple, possibly random subsets of the terminal nodes. Second, merge the resulting subtrees to form a full tree. Here, we develop spectral top-down recovery (STDR), a deterministic divide-and-conquer approach to infer large latent tree models. Unlike previous methods, STDR partitions the terminal nodes in a non random way, based on the Fiedler vector of a suitable Laplacian matrix related to the observed nodes. We prove that under certain conditions, this partitioning is consistent with the tree structure. This, in turn, leads to a significantly simpler merging procedure of the small subtrees. We prove that STDR is statistically consistent and bound the number of samples required to accurately recover the tree with high probability. Using simulated data from several common tree models in phylogenetics, we demonstrate that STDR has a significant advantage in terms of runtime, with improved or similar accuracy.},
     issn = {2049-8772},
     doi = {10.1093/imaiai/iaad032},
     url = {https://doi.org/10.1093/imaiai/iaad032},
     eprint = {https://academic.oup.com/imaiai/article-pdf/12/3/iaad032/51117007/iaad032.pdf},
+    pdf_url = {files/iaad032.pdf},
+    code_url = {https://github.com/aizeny/stdr},
 }
 
 @misc{https://doi.org/10.48550/arxiv.2303.03358,
@@ -24,7 +26,8 @@
   year = {2023},
   month = {3},
   copyright = {arXiv.org perpetual, non-exclusive license},
-  abstract = {We study the Lanczos method for approximating the action of a symmetric matrix function f(A) on a vector b (Lanczos-FA). For the function A^{-1}, it is known that the error of Lanczos-FA after k iterations matches the error of the best approximation from the Krylov subspace of degree k when A is positive definite. We prove that the same holds, up to a multiplicative approximation factor, when f is a rational function with no poles in the interval containing A's eigenvalues. The approximation factor depends the degree of f's denominator and the condition number of A, but not on the number of iterations k. Experiments confirm that our bound accurately predicts the convergence of Lanczos-FA. Moreover, we believe that our result provides strong theoretical justification for the excellent practical performance that has long by observed of the Lanczos method, both for approximating rational functions and functions like A^{1/2}b that are well approximated by rationals.}
+  abstract = {We study the Lanczos method for approximating the action of a symmetric matrix function f(A) on a vector b (Lanczos-FA). For the function A^{-1}, it is known that the error of Lanczos-FA after k iterations matches the error of the best approximation from the Krylov subspace of degree k when A is positive definite. We prove that the same holds, up to a multiplicative approximation factor, when f is a rational function with no poles in the interval containing A's eigenvalues. The approximation factor depends the degree of f's denominator and the condition number of A, but not on the number of iterations k. Experiments confirm that our bound accurately predicts the convergence of Lanczos-FA. Moreover, we believe that our result provides strong theoretical justification for the excellent practical performance that has long by observed of the Lanczos method, both for approximating rational functions and functions like A^{1/2}b that are well approximated by rationals.},
+  poster_url = {files/icerm_poster.pdf},
 }
 
 @inproceedings{10.1145/3452296.3472898,

@@ -9,11 +9,17 @@ from utils import *
 
 type2venue_tag = {
     'article': 'journal',
-    'inproceedings': 'booktitle'
+    'inproceedings': 'booktitle',
+    'misc': 'publisher'
 }
+
+# This is the order their tags will appear
+extras_tags = ['pdf_url', 'video_url', 'slides_url', 'poster_url', 'code_url']
+
 
 def person2string(person):
     return " ".join(person.first_names + person.middle_names + person.prelast_names + person.last_names + person.lineage_names)
+
 
 bib_data = parse_file(sys.argv[1])
 
@@ -24,7 +30,7 @@ for bib_id, bib_entry in bib_data.entries.items():
     venue_tag = type2venue_tag.get(bib_entry.type, None)
     venue = fields[venue_tag] if venue_tag else None
     authors = oxford_comma([person2string(author) for author in bib_entry.persons['author']])
-    extras = {name: fields[name] for name in ('pdf_url', 'video_url', 'slides_url', 'code_url') if name in fields}
+    extras = {name: fields[name] for name in extras_tags if name in fields}
 
     with open(os.path.join(sys.argv[2], f"{url_slug}.md"), 'w') as f:
         f.write(markdown_page(

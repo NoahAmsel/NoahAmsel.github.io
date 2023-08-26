@@ -8,6 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-I'm a first-year PhD student in Computer Science at NYU. I'm interested in the theory of deep learning, numerical analysis, and optimization.
+I'm a second-year PhD student in Computer Science at NYU, advised by [Joan Bruna](https://cims.nyu.edu/~bruna/) and [Chris Musco](https://www.chrismusco.com). I'm interested in numerical analysis and the theory of deep learning.
 
 Previously, I was a research engineer at [Reservoir Labs](https://www.reservoir.com/) (now Qualcomm) working on modeling congestion control in communication networks and on non-convex optimization. Before that, I was an undergrad at Yale, where I was advised by [Bob Frank](https://bobfrank1.github.io/) and [Dan Spielman](http://www.cs.yale.edu/homes/spielman/). I was a member of the [Computational Linguistics at Yale](http://clay.yale.edu/) lab, and I spent a summer at the Weizmann Institute working on phylogenetic inference with [Boaz Nadler](https://www.weizmann.ac.il/math/Nadler/home) and [Ariel Jaffe](https://arieljaffe.huji.ac.il/).
