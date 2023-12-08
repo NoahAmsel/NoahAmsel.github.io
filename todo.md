@@ -21,6 +21,7 @@ Website — Long Term
 - blog posts
 
 CV pdf
+- should I include patents?
 - shorter description for jobs
 - bold name in papers (should i do this on the website too?)
 - automatically generate tables of talks and teaching from other files
