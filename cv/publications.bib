@@ -1,3 +1,15 @@
+@misc{amsel2024fixedsparsity,
+    title={Fixed-sparsity matrix approximation from matrix-vector products}, 
+    author={Noah Amsel and Tyler Chen and Feyza Duman Keles and Diana Halikias and Cameron Musco and Christopher Musco},
+    year={2024},
+    eprint={2402.09379},
+    archivePrefix={arXiv},
+    primaryClass={cs.DS},
+    publisher = {arXiv Preprint},
+    url = {https://arxiv.org/abs/2402.09379},
+    abstract = {We study the problem of approximating a matrix A with a matrix that has a fixed sparsity pattern (e.g., diagonal, banded, etc.), when A is accessed only by matrix-vector products. We describe a simple randomized algorithm that returns an approximation with the given sparsity pattern with Frobenius-norm error at most (1+ε) times the best possible error. When each row of the desired sparsity pattern has at most s nonzero entries, this algorithm requires O(s/ε) non-adaptive matrix-vector products with A. We also prove a matching lower-bound, showing that, for any sparsity pattern with Θ(s) nonzeros per row and column, any algorithm achieving (1+ϵ) approximation requires Ω(s/ε) matrix-vector products in the worst case. We thus resolve the matrix-vector product query complexity of the problem up to constant factors, even for the well-studied case of diagonal approximation, for which no previous lower bounds were known.}
+}
+
 @article{10.1093/imaiai/iaad032,
     author = {Aizenbud, Yariv and Jaffe, Ariel and Wang, Meng and Hu, Amber and Amsel, Noah and Nadler, Boaz and Chang, Joseph T and Kluger, Yuval},
     title = {Spectral top-down recovery of latent tree models},
@@ -17,12 +29,11 @@
 }
 
 @misc{https://doi.org/10.48550/arxiv.2303.03358,
-  doi = {10.48550/ARXIV.2303.03358},
   url = {https://arxiv.org/abs/2303.03358},
   author = {Amsel, Noah and Chen, Tyler and Greenbaum, Anne and Musco, Cameron and Musco, Chris},
   keywords = {Numerical Analysis (math.NA), FOS: Mathematics, FOS: Mathematics},
   title = {Near-Optimality Guarantees for Approximating Rational Matrix Functions by the Lanczos Method},
-  publisher = {arXiv},
+  publisher = {arXiv Preprint},
   year = {2023},
   month = {3},
   copyright = {arXiv.org perpetual, non-exclusive license},

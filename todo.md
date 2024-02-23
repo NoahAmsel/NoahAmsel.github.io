@@ -2,6 +2,8 @@ Just switch the whole thing to https://github.com/alshedivat/al-folio
 This still allows me to give publications properties like PDF, code, etc.
 But rather than each talk being a blog post, they all are listed in a nice page with collapsable abstracts
 
+could also check out "Website built with Franklin.jl using the tufte theme and the Julia programming language"
+
 Website
 - when running locally, i get a bunch of errors (including missing facion). squash these so they don't become problems later
 - paper "Near-Optimality Guarantees for Approximating Rational Matrix Functions by the Lanczos Method", make sure that journal, code, and poster links come up both in the list of papers and in the page for this paper
