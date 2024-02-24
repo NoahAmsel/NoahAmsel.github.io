@@ -5,6 +5,7 @@ But rather than each talk being a blog post, they all are listed in a nice page 
 could also check out "Website built with Franklin.jl using the tufte theme and the Julia programming language"
 
 Website
+- separate the publications.bib into seperate files for preprints and published work (and maybe also for conference vs. journal papers?) then make these separate sections on my CV. also this may allow me to simplify the logic introduced on february 23/24, 2024 for displaying preprints
 - when running locally, i get a bunch of errors (including missing facion). squash these so they don't become problems later
 - paper "Near-Optimality Guarantees for Approximating Rational Matrix Functions by the Lanczos Method", make sure that journal, code, and poster links come up both in the list of papers and in the page for this paper
 - improve style of publications and talks pages
