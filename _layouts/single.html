@@ -40,13 +40,7 @@ layout: default
           <p>{{ page.publication_authors }}<br>
           <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}<br>
             {% if page.paperurl %}
-              <a href=" {{ page.paperurl }} "><u>
-                {% if page.venue == 'arXiv Preprint' %}
-                  [preprint]
-                {% else %}
-                  [journal]
-                {% endif %}
-              </u></a>
+              <a href=" {{ page.paperurl }} "><u>{% if page.venue == "arXiv Preprint" %}[preprint]{% else %}[journal]{% endif %}</u></a>
             {% endif %}
             {% if page.pdf_url %}
               <a href=" {{ page.pdf_url }} "><u>[pdf]</u></a>
