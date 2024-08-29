@@ -1,5 +1,23 @@
 [
     {
+        "title": "Fixed-Sparsity Matrix Approximation from Matrix-Vector Products",
+        "type": "Conference Talk",
+        "venue": "SIAM Linear Algebra",
+        "date": "2024-05-17",
+        "location": "Sorbonne University",
+        "published": true,
+        "description": "Presented [our work](/publication/2024-on-the-benefits-of-rank.md) on sparse matrix recovery at this [annual linear alegbra conference](https://www.siam.org/conferences-events/past-event-archive/la24/)."
+    },
+    {
+        "title": "Near-Optimal Approximation of Matrix Functions by the Lanczos Method",
+        "type": "Conference Talk",
+        "venue": "SIAM New York-New Jersey-Pennsylvania",
+        "date": "2023-10-21",
+        "location": "New Jersey Institute of Technology",
+        "published": true,
+        "description": "Presented [our work](/publication/2023-nearoptimality-guarantees-for-approximating-rational) on the Lanczos method for rational functions of a matrix at the first [annual meeting](https://sites.google.com/view/siam-nynjpa/annual-meeting/) of our SIAM section, in Newark."
+    },
+    {
         "title": "Lanczos-FA is Nearly Krylov-Optimal for Rational Functions",
         "type": "Poster",
         "venue": "\\\"Modern Applied and Computational Analysis\\\" / \\\"Synergistic Interactions between Theory and Computation\\\" / \\\"Mihalis Fest\\\"",
