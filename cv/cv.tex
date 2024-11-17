@@ -36,6 +36,8 @@
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \newcommand{\specialcell}[2][c]{%
   $\left.\begin{tabular}[#1]{@{}#1@{}}#2\end{tabular}\right\}$}
+  \newcommand{\specialcellbracketless}[2][c]{%
+  $\begin{tabular}[#1]{@{}#1@{}}#2\end{tabular}$}
 \name{Noah Amsel} % Your name 
 % \address{C-101, Dreamland Apartment, Backbone Park, B/H Balaji Hall, Rajkot-360004, Gujarat} % Your address 
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional) 
@@ -136,9 +138,7 @@ B.S. in Computer Science \& Mathematics, with distinction. \hfill {New Haven, CT
 \begin{rSubsection}{Off the Hook, LLC} {May - July 2017}{Data Analyst / Software Developer}{New York, NY}
 
 \item Developed computer gambling software in Python based on statistical analysis of horse racing data.
-\item Made race predictions and evaluated wager opportunities by using machine learning methods (Multi-
-nomial Logit Model, GAM, Random Forest, PCA) and the Python scientific stack.
-\item Analyzed SQL database with 3 million entries and interfaced with RESTful API.
+\item Evaluated wager opportunities using machine learning trained on data from hundreds of thousands of past races. 
 
 \end{rSubsection}  
 
@@ -200,7 +200,8 @@ nomial Logit Model, GAM, Random Forest, PCA) and the Python scientific stack.
 \begin{rSection}{Conference Talks}
 
 \begin{tabular}{lll}
-    SIAM-LA & Fixed-Sparsity Matrix Approximation from Matrix-Vector Products & 2024 \\
+    NYAS ML Symposium & The Low-Rank Bottleneck in Attention & 2024 \\
+    \specialcell[l]{SIAM Linear Algebra \\ Temple Num. Anal. Day} & Fixed-Sparsity Matrix Approximation from Matrix-Vector Products & 2024 \\
     SIAM-NNP & Near-Optimal Approximation of Matrix Functions by the Lanczos Method & 2023 \\
     ACM SIGCOMM & Designing Data Center Networks Using Bottleneck Structures & 2021 \\
     IEEE/ACM INDIS at SC20 & Computing Bottleneck Structures at Scale & 2020
@@ -214,7 +215,7 @@ nomial Logit Model, GAM, Random Forest, PCA) and the Python scientific stack.
 \begin{rSection}{Poster Presentations}
 
     \begin{tabular}{lll}
-        \specialcell[l]{ICERM \\ASE60 (MIT)\\Mihalis Fest (Columbia)} & Lanczos-FA is Nearly Krylov-Optimal for Rational Functions & 2023 \\
+        \specialcell[l]{NeurIPS \\ ICERM \\ASE60 (MIT)\\Mihalis Fest (Columbia)} & Lanczos-FA is Nearly Krylov-Optimal for Rational Functions & \specialcellbracketless[l]{2024 \\ 2023 \\ 2023 \\ 2023} \\
         ACL & Finding Hierarchical Structure in Neural Stacks Using Unsupervised Parsing & 2019
     \end{tabular}
     
