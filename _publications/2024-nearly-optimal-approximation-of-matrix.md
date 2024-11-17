@@ -1,11 +1,11 @@
 ---
-title: "Near-Optimality Guarantees for Approximating Rational Matrix Functions by the Lanczos Method"
+title: "Nearly Optimal Approximation of Matrix Functions by the Lanczos Method"
 collection: "publications"
-permalink: "/publication/2023-nearoptimality-guarantees-for-approximating-rational"
-date: "2023-03-01"
-publication_authors: "Noah Amsel, Tyler Chen, Anne Greenbaum, Cameron Musco, and Chris Musco"
-venue: "arXiv Preprint"
-paperurl: "https://arxiv.org/abs/2303.03358"
+permalink: "/publication/2024-nearly-optimal-approximation-of-matrix"
+date: "2024-01-01"
+publication_authors: "Noah Amsel, Tyler Chen, Anne Greenbaum, Cameron N Musco, and Christopher Musco"
+venue: "The Thirty-eighth Annual Conference on Neural Information Processing Systems"
+paperurl: "https://openreview.net/forum?id=3s8V8QP9XV"
 poster_url: "/files/icerm_poster.pdf"
 code_url: "https://github.com/NoahAmsel/lanczos-optimality/tree/near_optimality_paper"
 ---
