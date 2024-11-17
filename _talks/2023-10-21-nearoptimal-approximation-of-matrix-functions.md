@@ -8,4 +8,4 @@ date: "2023-10-21"
 location: "New Jersey Institute of Technology"
 published: True
 ---
-Presented [our work](/publication/2024-nearly-optimal-approximation-of-matrix.md) on the Lanczos method for rational functions of a matrix at the first [annual meeting](https://sites.google.com/view/siam-nynjpa/annual-meeting/) of our SIAM section, in Newark.
+Presented [our work](/publication/2024-nearly-optimal-approximation-of-matrix) on the Lanczos method for rational functions of a matrix at the first [annual meeting](https://sites.google.com/view/siam-nynjpa/annual-meeting/) of our SIAM section, in Newark.

@@ -8,4 +8,4 @@ date: "2024-10-18"
 location: "New York Academy of Sciences"
 published: True
 ---
-Presented [our work](/publication/2024-on-the-benefits-of-rank.md) on attention rank at this [annual meeting](https://events.nyas.org/event/ml2024/summary).
+Presented [our work](/publication/2024-on-the-benefits-of-rank) on attention rank at this [annual meeting](https://events.nyas.org/event/ml2024/summary).

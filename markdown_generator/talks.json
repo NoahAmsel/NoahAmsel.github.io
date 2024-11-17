@@ -6,7 +6,7 @@
         "date": "2024-11-15",
         "location": "Temple University",
         "published": true,
-        "description": "Presented [our work](/publication/2024-fixedsparsity-matrix-approximation-of-matrix.md) on sparse matrix recovery at this [annual meeting](https://math.temple.edu/events/conferences/na-day/)."
+        "description": "Presented [our work](/publication/2024-fixedsparsity-matrix-approximation-from-matrixvector) on sparse matrix recovery at this [annual meeting](https://math.temple.edu/events/conferences/na-day/)."
     },
     {
         "title": "The Low-Rank Bottleneck in Attention",
@@ -15,7 +15,7 @@
         "date": "2024-10-18",
         "location": "New York Academy of Sciences",
         "published": true,
-        "description": "Presented [our work](/publication/2024-on-the-benefits-of-rank.md) on attention rank at this [annual meeting](https://events.nyas.org/event/ml2024/summary)."
+        "description": "Presented [our work](/publication/2024-on-the-benefits-of-rank) on attention rank at this [annual meeting](https://events.nyas.org/event/ml2024/summary)."
     },
     {
         "title": "Fixed-Sparsity Matrix Approximation from Matrix-Vector Products",
@@ -24,7 +24,7 @@
         "date": "2024-05-17",
         "location": "Sorbonne University",
         "published": true,
-        "description": "Presented [our work](/publication/2024-fixedsparsity-matrix-approximation-of-matrix.md) on sparse matrix recovery at this [annual linear alegbra conference](https://www.siam.org/conferences-events/past-event-archive/la24/)."
+        "description": "Presented [our work](/publication/2024-fixedsparsity-matrix-approximation-from-matrixvector) on sparse matrix recovery at this [annual linear alegbra conference](https://www.siam.org/conferences-events/past-event-archive/la24/)."
     },
     {
         "title": "Near-Optimal Approximation of Matrix Functions by the Lanczos Method",
@@ -33,7 +33,7 @@
         "date": "2023-10-21",
         "location": "New Jersey Institute of Technology",
         "published": true,
-        "description": "Presented [our work](/publication/2024-nearly-optimal-approximation-of-matrix.md) on the Lanczos method for rational functions of a matrix at the first [annual meeting](https://sites.google.com/view/siam-nynjpa/annual-meeting/) of our SIAM section, in Newark."
+        "description": "Presented [our work](/publication/2024-nearly-optimal-approximation-of-matrix) on the Lanczos method for rational functions of a matrix at the first [annual meeting](https://sites.google.com/view/siam-nynjpa/annual-meeting/) of our SIAM section, in Newark."
     },
     {
         "title": "Lanczos-FA is Nearly Krylov-Optimal for Rational Functions",
@@ -42,7 +42,7 @@
         "date": "2023-06-28",
         "location": "ICERM / MIT / Columbia",
         "published": true,
-        "description": "Presented [our work](/publication/2024-nearly-optimal-approximation-of-matrix.md) on the Lanczos method for rational functions of a matrix at three birthday conferences. Poster [here](/files/icerm_poster.pdf). More on the conferences [here](https://icerm.brown.edu/topical_workshops/tw-23-maca/), [here](https://math.mit.edu/events/ase60celebration/), and [here](https://mihalisfest.cs.columbia.edu)."
+        "description": "Presented [our work](/publication/2024-nearly-optimal-approximation-of-matrix) on the Lanczos method for rational functions of a matrix at three birthday conferences. Poster [here](/files/icerm_poster.pdf). More on the conferences [here](https://icerm.brown.edu/topical_workshops/tw-23-maca/), [here](https://math.mit.edu/events/ase60celebration/), and [here](https://mihalisfest.cs.columbia.edu)."
     },
     {
         "title": "Computing Bottleneck Structures at Scale",
