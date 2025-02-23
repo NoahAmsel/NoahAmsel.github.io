@@ -15,7 +15,7 @@
         "date": "2024-10-18",
         "location": "New York Academy of Sciences",
         "published": true,
-        "description": "Presented [our work](/publication/2024-on-the-benefits-of-rank) on attention rank at this [annual meeting](https://events.nyas.org/event/ml2024/summary)."
+        "description": "Presented [our work](/publication/2025-the-lowrank-bottleneck-in-attention) on attention rank at this [annual meeting](https://events.nyas.org/event/ml2024/summary)."
     },
     {
         "title": "Fixed-Sparsity Matrix Approximation from Matrix-Vector Products",
