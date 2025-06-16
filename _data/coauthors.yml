@@ -1,3 +1,40 @@
+"bruna":
+  - firstname: ["Joan", "J."]
+    url: https://cims.nyu.edu/~bruna/
+
+"chen":
+  - firstname: ["Tyler", "T."]
+    url: https://chen.pw
+
+"gower":
+  - firstname: ["Robert", "R.", "R. M.", "Robert M.", "Robert Mansel"]
+    url: https://gowerrobert.github.io
+
+"halikias":
+  - firstname: ["Diana", "D."]
+    url: https://e.math.cornell.edu/people/halikias/
+
+"keles":
+  - firstname: ["Feyza", "F.", "Feyza D.", "F. D.", "Feyza Duman"]
+    url: https://scholar.google.com/citations?user=w7_bE5cAAAAJ
+
+"musco":
+  - firstname: ["Christopher", "Chris", "C."]
+    url: https://www.chrismusco.com
+
+  - firstname: ["Cameron", "Cam", "C.", "Cameron M.", "C. M."]
+    url: https://people.cs.umass.edu/~cmusco/
+
+"persson":
+  - firstname: ["David", "D."]
+    url: https://www.simonsfoundation.org/people/david-persson/
+
+"yehudai":
+  - firstname: ["Gilad", "G."]
+    url: https://sites.google.com/view/gyehudai/home
+
+################
+
 "adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
