@@ -193,18 +193,26 @@ exclude:
   - readme_preview/
   - vendor
 # Noah excluded below as per CUSTOMIZE.md
-  - NOAH_TODOs.md
-  - _news/announcement_*.md
+  - _books/
+  - _includes/repository/
+  - _news/
   - _pages/blog.md
+  - _pages/books.md
   - _pages/dropdown.md
+  - _pages/news.md
+  - _pages/profiles.md
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _pages/teaching.md
   - _posts/
   - _projects/
-  - _pages/projects.md
-  - _pages/teaching.md
+  - assets/audio/epicaly-short-113909.mp3
+  - assets/bibliography/2018-12-22-distill.bib
+  - assets/html/relativity.html
   - assets/jupyter/blog.ipynb
-  - _pages/repositories.md
-  - _includes/repository/
-  - _pages/profiles.md
+  - assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4
+  - assets/video/tutorial_al_folio.mp4
+  - NOAH_TODOs.md
 keep_files:
   - CNAME
   - .nojekyll
