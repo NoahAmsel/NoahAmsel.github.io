@@ -762,7 +762,10 @@ footer.sticky-bottom {
 
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          // Used to be var(--global-theme-color).
+          // Noah: I took out the theme color here because I thought it was distracting.
+          border-bottom: 1px dashed var(--global-text-color);
+          color: var(--global-text-color);
 
           &:hover {
             border-bottom-style: solid;
@@ -771,8 +774,10 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
+          border-bottom: 1px solid var(--global-theme-color);
           font-style: normal;
+          // font-weight: 500;
+          color: var(--global-theme-color)
         }
 
         > span.more-authors {

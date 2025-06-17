@@ -11,10 +11,18 @@ Also note that a lot of these bibtex's had URL as a field before me. I just chan
 
 add months to bibtex
 
+add pictures to all the papers, or at least many of them
+
 Don't forget to chance the color and fonts and stuff
 change the style of coauthors when they have hyperlinks. don't want them to outshine me
 
 venue tags text color. make sure it looks good in both light and dark mode, and see if we can distinguish those venues which have clickable links. (I removed that distinction)
+using a query like in `selected_papers.liquid`, figure out how to automatically color papers by type (arxiv vs journal vs inproceedings, etc)?
+
+also figure out how to add subject matter tags to the publications
+possibly make an attribute called tags that is a comma separated list and then display the list of tags below the paper somewhere. ensure that the "type to filter" search bar can make use of those
+
+go back to all the linked things (linkedin, scholar, github etc.) and make sure they are updated
 
 Add links to this, MAD, and say I also work with CCM at Flatiron https://cs.nyu.edu/theory-group/.
 
