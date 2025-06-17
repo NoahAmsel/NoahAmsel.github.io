@@ -172,6 +172,7 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+# Default excludes
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -191,6 +192,18 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+# Noah excluded below as per CUSTOMIZE.md
+  - _news/announcement_*.md
+  - _pages/blog.md
+  - _pages/dropdown.md
+  - _posts/
+  - _projects/
+  - _pages/projects.md
+  - _pages/teaching.md
+  - assets/jupyter/blog.ipynb
+  - _pages/repositories.md
+  - _includes/repository/
+  - _pages/profiles.md
 keep_files:
   - CNAME
   - .nojekyll
