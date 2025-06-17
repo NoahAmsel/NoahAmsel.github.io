@@ -7,7 +7,7 @@ first_name: Noah
 middle_name:
 last_name: Amsel
 contact_note:
-  The best way to reach my is by email. My desk is in 60 5th Avenue, Room 442.
+  Please send me an email if you want to get in touch. If you're in my department, use Slack or drop by my desk at 60 5th Avenue, Room 442.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >

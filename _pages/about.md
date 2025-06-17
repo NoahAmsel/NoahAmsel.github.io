@@ -27,6 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a third-year PhD student in Computer Science at NYU. I'm advised by [Joan Bruna](https://cims.nyu.edu/~bruna/) and [Chris Musco](https://www.chrismusco.com) and supported by an NSF Graduate Research Fellowship. My main research interests are fast algorithms for scientific computing and the theory of deep learning. 
+I'm a third-year PhD student in Computer Science at NYU, where I'm advised by [Joan Bruna](https://cims.nyu.edu/~bruna/) and [Chris Musco](https://www.chrismusco.com). I'm supported by an NSF Graduate Research Fellowship. 
+I am affiliated with the [Algorithms and Foundations](https://cs.nyu.edu/theory-group/) group, [MaD](https://cds.nyu.edu/mad/), and [CILVR](https://wp.nyu.edu/cilvr/).
+I also help organize the [ML-NYC](http://mlnyc.com) speaker series.
 
-Previously, I was a research engineer at [Reservoir Labs](https://www.reservoir.com/) (now Qualcomm) working on modeling congestion control in communication networks and on non-convex optimization. Before that, I was an undergrad at Yale, where I was advised by [Bob Frank](https://bobfrank1.github.io/) and [Dan Spielman](http://www.cs.yale.edu/homes/spielman/). I was a member of the [Computational Linguistics at Yale](http://clay.yale.edu/) lab, and I spent a summer at the Weizmann Institute working on phylogenetic inference with [Boaz Nadler](https://www.weizmann.ac.il/math/Nadler/home) and [Ariel Jaffe](https://arieljaffe.huji.ac.il/).
+I study algorithms mathematically.
+The main themes in my research are linear algebra, approximation theory, and deep learning.
+I'm broadly interested in scientific computing and optimization too.
+
+Previously, I was a research engineer at [Reservoir Labs](https://www.hipeac.net/network/institutions/7229/reservoir-labs/) (now Qualcomm) working on modeling congestion control in communication networks and on non-convex optimization. Before that, I was an undergrad at Yale, where I worked with [Bob Frank](https://bobfrank1.github.io/) as part of the [CLAY](http://clay.yale.edu/) lab and was advised by [Dan Spielman](http://www.cs.yale.edu/homes/spielman/). I've spent summers at Adobe Research, [Polymathic](https://polymathic-ai.org), and at the Weizmann Institute, the latter working on phylogenetic inference with [Boaz Nadler](https://www.weizmann.ac.il/math/Nadler/home) and [Ariel Jaffe](https://arieljaffe.huji.ac.il/).
