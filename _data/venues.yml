@@ -1,3 +1,32 @@
+"BlackboxNLP":
+  color: "#54A157"
+
+"ICLR":
+  color: "#54A157"
+
+"ICML":
+  color: "#54A157"
+
+"INDIS":
+  color: "#54A157"
+
+"Inf Inference":
+  color: "#3274C9"
+
+"NeurIPS":
+  color: "#54A157"
+
+"Preprint":
+  color: "#A42C25"
+
+"SIGCOMM":
+  color: "#54A157"
+
+"SIMODS":
+  color: "#3274C9"
+
+################
+
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
