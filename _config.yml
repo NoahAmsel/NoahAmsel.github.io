@@ -307,6 +307,12 @@ scholar:
 
   query: "@*"
   group_by: year
+  sort_by: year, type
+  order: descending
+  # # For config options, see here: https://github.com/inukshuk/jekyll-scholar
+  # group_by: year, type
+  # type_aliases: { inproceedings: article}
+  # type_names: { misc: Preprints }
   group_order: descending
 
 # Display different badges withs stats for your publications
