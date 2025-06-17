@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Courant Institute, NYU</p> <img src="/assets/img/NYU_Short_RGB_Color.png" alt="NYU logo" style="max-width: 20px; border-radius: 4px;">
     <p>(first).(last)@nyu.edu</p>
-    <p><i class="ai ai-google-scholar"></i>  <a href="https://scholar.google.com/citations?user={{ social[1] }}" title="Google Scholar" style="color: inherit">Google Scholar</a><p>
+    <p><i class="ai ai-google-scholar"></i>  <a href="https://scholar.google.com/citations?user=vkykpWgAAAAJ" title="Google Scholar" style="color: inherit">Google Scholar</a><p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
