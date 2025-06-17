@@ -193,6 +193,7 @@ exclude:
   - readme_preview/
   - vendor
 # Noah excluded below as per CUSTOMIZE.md
+  - NOAH_TODOs.md
   - _news/announcement_*.md
   - _pages/blog.md
   - _pages/dropdown.md
