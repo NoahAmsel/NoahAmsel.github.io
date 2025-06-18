@@ -1,29 +1,29 @@
 "BlackboxNLP":
-  color: "#54A157"
+  color: "#009b8a"
 
 "ICLR":
-  color: "#54A157"
+  color: "#009b8a"
 
 "ICML":
-  color: "#54A157"
+  color: "#009b8a"
 
 "INDIS":
-  color: "#54A157"
+  color: "#009b8a"
 
 "Inf Inference":
-  color: "#3274C9"
+  color: "#59B2D1"
 
 "NeurIPS":
-  color: "#54A157"
+  color: "#009b8a"
 
 "Preprint":
   color: "#A42C25"
 
 "SIGCOMM":
-  color: "#54A157"
+  color: "#009b8a"
 
 "SIMODS":
-  color: "#3274C9"
+  color: "#59B2D1"
 
 ################
 
