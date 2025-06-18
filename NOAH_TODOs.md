@@ -24,6 +24,10 @@ possibly make an attribute called tags that is a comma separated list and then d
 
 go back to all the linked things (linkedin, scholar, github etc.) and make sure they are updated
 
+New profile picture
+
+Make github repo private
+
 Add links to this, MAD, and say I also work with CCM at Flatiron https://cs.nyu.edu/theory-group/.
 
 Fix the rendering of the additional_info field in the bibliography. It should come after the date.

@@ -64,6 +64,16 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Miscellaneous -->
+    <div style="margin: 2em 0;"></div>
+    {% if page.miscellany %}
+      <h2>
+        Miscellaneous
+      </h2>
+      <div class="contact-note">{{ page.miscellany }}</div>
+    {% endif %}
+    <div style="margin: 2em 0;"></div>
+
     <!-- Social -->
     {% if page.social %}
       <h2>
@@ -72,7 +82,6 @@ layout: default
       <div class="contact-note">{{ site.contact_note }}</div>
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
-
       </div>
     {% endif %}
 
