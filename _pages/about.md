@@ -14,7 +14,7 @@ profile:
     <p><i class="ai ai-google-scholar"></i>  <a href="https://scholar.google.com/citations?user=vkykpWgAAAAJ" title="Google Scholar" style="color: inherit">Google Scholar</a><p>
 
 miscellany: >
-  I have many interesting interests. I am relatable and I like to have fun.
+  I have many interesting interests. I am relatable, and I like to have fun.
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
